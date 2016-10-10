@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Mort 2008" />
+		<Option pch_mode="0" />
+		<Option compiler="microchip_mcc18_compiler_31" />
+		<Build>
+			<Target title="8722 RC">
+				<Option output="FrcCode.hex" prefix_auto="0" extension_auto="0" />
+				<Option object_output="..\code\objects" />
+				<Option deps_output="deps" />
+				<Option type="1" />
+				<Option compiler="microchip_mcc18_compiler_31" />
+				<Option use_console_runner="0" />
+				<Option host_application="IFI_Loader.exe" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-p=18F8722" />
+				</Compiler>
+				<Linker>
+					<Add library="18f8722.lkr" />
+					<Add library="ifi_frc_8722.lib" />
+				</Linker>
+			</Target>
+			<Target title="8520 RC">
+				<Option output="frc_code.exe" prefix_auto="0" extension_auto="0" />
+				<Option object_output="..\code\objects" />
+				<Option deps_output="deps" />
+				<Option type="1" />
+				<Option compiler="microchip_mcc18_compiler_31" />
+				<Option use_console_runner="0" />
+				<Option projectResourceIncludeDirsRelation="1" />
+				<Compiler>
+					<Add option="-p=18F8520" />
+				</Compiler>
+				<Linker>
+					<Add library="18f8520.lkr" />
+					<Add library="ifi_frc_8520.lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="All" targets="8722 RC;8520 RC;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-nw=2066" />
+			<Add option="-D_FRC_BOARD" />
+		</Compiler>
+		<Linker>
+			<Add option='/m &quot;FrcCode.map&quot;' />
+			<Add option='/o &quot;FrcCode.cof&quot;' />
+		</Linker>
+		<Unit filename="adc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="adc.h" />
+		<Unit filename="autonomous.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="autonomous.h" />
+		<Unit filename="disabled.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="disabled.h" />
+		<Unit filename="eeprom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="eeprom.h" />
+		<Unit filename="encoder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="encoder.h" />
+		<Unit filename="gyro.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gyro.h" />
+		<Unit filename="ifi_frc.h" />
+		<Unit filename="interrupts.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="interrupts.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="mort_defines.h" />
+		<Unit filename="serial_ports.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="serial_ports.h" />
+		<Unit filename="teleop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="teleop.h" />
+		<Unit filename="timers.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="timers.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

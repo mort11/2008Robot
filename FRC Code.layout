@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="8722 RC" />
+	<File name="adc.c" open="0" top="0" tabpos="5">
+		<Cursor position="1845" topLine="25" />
+	</File>
+	<File name="adc.h" open="0" top="0" tabpos="4">
+		<Cursor position="3657" topLine="69" />
+	</File>
+	<File name="autonomous.c" open="0" top="0" tabpos="1">
+		<Cursor position="1495" topLine="24" />
+	</File>
+	<File name="autonomous.h" open="0" top="0" tabpos="4">
+		<Cursor position="1444" topLine="7" />
+	</File>
+	<File name="disabled.c" open="0" top="0" tabpos="11">
+		<Cursor position="1123" topLine="24" />
+	</File>
+	<File name="eeprom.c" open="0" top="0" tabpos="12">
+		<Cursor position="4842" topLine="98" />
+	</File>
+	<File name="eeprom.h" open="0" top="0" tabpos="20">
+		<Cursor position="1574" topLine="31" />
+	</File>
+	<File name="encoder.c" open="0" top="0" tabpos="6">
+		<Cursor position="8559" topLine="101" />
+	</File>
+	<File name="encoder.h" open="0" top="0" tabpos="9">
+		<Cursor position="4711" topLine="95" />
+	</File>
+	<File name="gyro.c" open="0" top="0" tabpos="3">
+		<Cursor position="6326" topLine="170" />
+	</File>
+	<File name="gyro.h" open="0" top="0" tabpos="14">
+		<Cursor position="6605" topLine="115" />
+	</File>
+	<File name="ifi_frc.h" open="0" top="0" tabpos="7">
+		<Cursor position="1871" topLine="41" />
+	</File>
+	<File name="interrupts.c" open="0" top="0" tabpos="15">
+		<Cursor position="15693" topLine="473" />
+	</File>
+	<File name="interrupts.h" open="0" top="0" tabpos="16">
+		<Cursor position="714" topLine="0" />
+	</File>
+	<File name="main.c" open="0" top="0" tabpos="12">
+		<Cursor position="485" topLine="62" />
+	</File>
+	<File name="mort_defines.h" open="0" top="0" tabpos="1">
+		<Cursor position="4200" topLine="113" />
+	</File>
+	<File name="serial_ports.c" open="0" top="0" tabpos="8">
+		<Cursor position="8442" topLine="237" />
+	</File>
+	<File name="serial_ports.h" open="0" top="0" tabpos="7">
+		<Cursor position="4909" topLine="115" />
+	</File>
+	<File name="teleop.c" open="1" top="1" tabpos="1">
+		<Cursor position="2385" topLine="20" />
+	</File>
+	<File name="teleop.h" open="0" top="0" tabpos="6">
+		<Cursor position="26" topLine="0" />
+	</File>
+	<File name="timers.c" open="0" top="0" tabpos="12">
+		<Cursor position="10608" topLine="250" />
+	</File>
+	<File name="timers.h" open="0" top="0" tabpos="13">
+		<Cursor position="2694" topLine="50" />
+	</File>
+</CodeBlocks_layout_file>

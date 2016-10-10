@@ -1,0 +1,165 @@
+# depslib dependency file v1.0
+1204223682 source:c:\mort\mort code 08\code\autonomous.c
+	"ifi_frc.h"
+	"timers.h"
+	"interrupts.h"
+	"encoder.h"
+	"serial_ports.h"
+	"ifi_code.h"
+	"autonomous.h"
+	"camera.h"
+	"tracking.h"
+	"mort_defines.h"
+	"adc.h"
+	"gyro.h"
+	"camera.h"
+	"tracking.h"
+
+1203351578 c:\mort\mort code 08\code\ifi_frc.h
+	<p18cxxx.h>
+
+1200886920 c:\mort\mort code 08\code\pwm.h
+
+1203351578 c:\mort\mort code 08\code\timers.h
+
+1203176824 c:\mort\mort code 08\code\interrupts.h
+
+1203135881 c:\mort\mort code 08\code\encoder.h
+
+1200887820 c:\mort\mort code 08\code\serial_ports.h
+	<stdio.h>
+
+1200886920 c:\mort\mort code 08\code\ifi_code.h
+
+1205500525 c:\mort\mort code 08\code\autonomous.h
+
+1204214966 c:\mort\mort code 08\code\camera.h
+
+1203381006 c:\mort\mort code 08\code\tracking.h
+
+1204215030 source:c:\mort\mort code 08\code\camera.c
+	<stdio.h>
+	"serial_ports.h"
+	"camera.h"
+	"autonomous.h"
+
+1204391871 source:c:\mort\mort code 08\code\disabled.c
+	<stdio.h>
+	"gyro.h"
+	"ifi_frc.h"
+	"pwm.h"
+	"timers.h"
+	"interrupts.h"
+	"serial_ports.h"
+	"ifi_code.h"
+	"disabled.h"
+	"camera.h"
+	"tracking.h"
+
+1200886920 c:\mort\mort code 08\code\disabled.h
+
+1203138858 source:c:\mort\mort code 08\code\encoder.c
+	"ifi_frc.h"
+	"encoder.h"
+
+1203177255 source:c:\mort\mort code 08\code\interrupts.c
+	"ifi_frc.h"
+	"pwm.h"
+	"timers.h"
+	"interrupts.h"
+	"encoder.h"
+	"serial_ports.h"
+	"teleop.h"
+	"autonomous.h"
+	"disabled.h"
+	"mort_defines.h"
+
+1204231428 c:\mort\mort code 08\code\teleop.h
+
+1203358985 source:c:\mort\mort code 08\code\main.c
+	<adc.h>
+	"adc.h"
+	<delays.h>
+	"ifi_frc.h"
+	"timers.h"
+	"interrupts.h"
+	"encoder.h"
+	"serial_ports.h"
+	"teleop.h"
+	"autonomous.h"
+	"disabled.h"
+	"gyro.h"
+
+1200884460 source:c:\mort\mort code 08\code\pwm.c
+	"ifi_frc.h"
+	"pwm.h"
+
+1202965826 source:c:\mort\mort code 08\code\serial_ports.c
+	"ifi_frc.h"
+	"serial_ports.h"
+
+1201836520 source:c:\mort\mort code 08\code\adc.c
+	"ifi_frc.h"
+	"adc.h"
+
+1203365675 c:\mort\mort code 08\code\adc.h
+
+1203362239 c:\mort\mort code 08\code\gyro.h
+
+1201988376 c:\mort\mort code 08\code\sensors.h
+
+1205499109 c:\mort\mort code 08\code\mort_defines.h
+
+1201990804 c:\mort\mort code 08\code\outputs.h
+	"mort_defines.h"
+
+1202616720 source:c:\mort\mort code 08\code\gyro.c
+	"ifi_frc.h"
+	"adc.h"
+	"gyro.h"
+
+1202053219 source:c:\mort\mort code 08\code\outputs.c
+	"mort_defines.h"
+	"ifi_frc.h"
+	"outputs.h"
+	"encoder.h"
+
+1201992187 source:c:\mort\mort code 08\code\sensors.c
+	<adc.h>
+	"adc.h"
+	"ifi_frc.h"
+	"sensors.h"
+	"serial_ports.h"
+	"gyro.h"
+
+1203350798 source:c:\mort\mort code 08\code\timers.c
+	"ifi_frc.h"
+	"timers.h"
+
+1204302353 source:c:\mort\mort code 08\code\tracking.c
+	<stdio.h>
+	"mort_defines.h"
+	"tracking.h"
+	"camera.h"
+
+1205469201 source:c:\mort\mort code 08\code\teleop.c
+	<adc.h>
+	"ifi_frc.h"
+	"timers.h"
+	"interrupts.h"
+	"encoder.h"
+	"serial_ports.h"
+	"ifi_code.h"
+	"teleop.h"
+	"camera.h"
+	"tracking.h"
+	"mort_defines.h"
+	"adc.h"
+	"autonomous.h"
+
+1168912344 source:c:\mort\mort code 08\code\eeprom.c
+	<p18f8722.h>
+	"eeprom.h"
+
+1168912344 c:\mort\mort code 08\code\eeprom.h
+
